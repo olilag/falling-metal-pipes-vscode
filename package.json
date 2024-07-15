@@ -13,6 +13,10 @@
   ],
   "pricing": "Free",
   "license": "MIT",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/olilag/falling-metal-pipes-vscode"
+  },
   "activationEvents": [
     "onStartupFinished"
   ],
