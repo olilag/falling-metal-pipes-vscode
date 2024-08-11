@@ -2,9 +2,12 @@
   "name": "falling-metal-pipe",
   "displayName": "Falling Metal Pipe",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "OliverLago",
-  "author": {"name": "Oliver Lago", "email": "oliver.oli.lago@gmail.com"},
+  "author": {
+    "name": "Oliver Lago",
+    "email": "oliver.oli.lago@gmail.com"
+  },
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -14,7 +17,7 @@
   "pricing": "Free",
   "license": "MIT",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://github.com/olilag/falling-metal-pipes-vscode"
   },
   "activationEvents": [
@@ -32,6 +35,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
+    "@types/find-exec": "^1.0.2",
     "@types/mocha": "^10.0.7",
     "@types/node": "20.x",
     "@types/play-sound": "^1.1.2",
@@ -43,5 +47,8 @@
     "@vscode/test-electron": "^2.4.0",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "find-exec": "^1.0.3"
   }
 }

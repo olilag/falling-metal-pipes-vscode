@@ -6,7 +6,12 @@ Plays falling metal pipe sound effect on operning new editor tab and glass break
 
 ## Requirements
 
-ffmpeg library
+Supported libs:
+
+- ffmpeg
+- vlc
+- afplay
+- windows powershell
 
 ## Release Notes
 
